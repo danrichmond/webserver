@@ -11,4 +11,5 @@ Instructions:
 4. Control C in cmd to kill the server
 
 -- TestFile.html located in the src folder is the current file
+
 -- that the server can fetch. This can be updated to a different file.
