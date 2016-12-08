@@ -10,6 +10,4 @@ Instructions:
 3. From a browser visit your-ip-address:8000/TestFile.html
 4. Control C in cmd to kill the server
 
--- TestFile.html located in the src folder is the current file
-
--- that the server can fetch. This can be updated to a different file.
+TestFile.html located in the src folder is the current file that the server can fetch. This can be updated to a different file.
