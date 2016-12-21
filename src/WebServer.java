@@ -10,7 +10,6 @@ public final class WebServer
 		int portNum = 8000;
 
 		// Establish the listen socket.
-		@SuppressWarnings("resource")
 		ServerSocket serverSocket = new ServerSocket(portNum);
 
 		// Infinite loop
@@ -123,7 +122,6 @@ class HttpRequest implements Runnable
 		while ((header = reader.readLine()).length() != 0) {
 			System.out.println(header);
 		}
-
 		outStream.close();
 		reader.close();
 		socket.close();
